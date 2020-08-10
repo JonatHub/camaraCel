@@ -18,3 +18,4 @@ if(r.status_code == 200):
                 exit(0)
 else:
     print("Received unexpected status code {}".format(r.status_code))
+    print("Funciona")
